@@ -1,0 +1,13 @@
+prefix=C:/RetailTransactions2000/myvenv/Library
+exec_prefix=C:/RetailTransactions2000/myvenv/Library
+libdir=C:/RetailTransactions2000/myvenv/Library/lib
+sharedlibdir=C:/RetailTransactions2000/myvenv/Library/lib
+includedir=C:/RetailTransactions2000/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
